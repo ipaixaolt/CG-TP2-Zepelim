@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TP2 - Zepelim</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+        <canvas id="screen"></canvas>
+
+        // Tela de carregamento para tocar enquanto a fazenda é carregada
+        <div id="loading-screen">
+            <video id="loading-video" src="./assets/video/earth_zoom.mp4" muted playsinline preload="auto"></video>
+
+            <div id="loading-text-area">
+                <span>C</span>
+                <span>a</span>
+                <span>r</span>
+                <span>r</span>
+                <span>e</span>
+                <span>g</span>
+                <span>a</span>
+                <span>n</span>
+                <span>d</span>
+                <span>o</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </div>
+        </div>
+
+        <div id="info"></div>
+
+        <audio id="bg-music" loop>
+            <source src="./assets/sounds/farm-sounds.mp3" type="audio/mpeg">
+        </audio>
+
+        <script type="module" src="src/main.js"></script>
+    </div>
+</body>
+
+</html>
