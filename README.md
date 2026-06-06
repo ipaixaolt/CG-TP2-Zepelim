@@ -1,6 +1,5 @@
 # CG-TP2 - Zepelim
-_spoiler: não vai ter zepelim (pelo menos não da maneira tradicional)_
-
+Alunas: Isabelle e Isadellis
 
 Trabalho prático 2 de Computação Gráfica: CEFET. Cena 3D interativa com um OVNI sobrevoando uma fazendinha.
 O objetivo é praticar os conceitos de projeção perspectiva, iluminação dinâmica, modelagem hierárquica, sombreamento, modelagem e efeitos visuais.
@@ -60,9 +59,10 @@ O objetivo é praticar os conceitos de projeção perspectiva, iluminação din�
 
 ### OVNI
 - **Modelagem hierárquica** com três partes independentes:
-  - `ufo_body`: corpo do disco - gira lentamente no sentido horário
-  - `ufo_cabin`: cabine superior - permanece estática em relação ao OVNI
-  - `ufo_sphere`: esfera central - gira rápido no sentido anti-horário
+  - `ufo_body`: corpo do disco
+  - `ufo_cabin`: cabine
+  - `ufo_big_ring`: disco rotativo inferior maior
+  - `ufo_small_ring`: disco rotativo inferior menor
 - **Movimentação**
   - `W/S`: mover para frente/trás no eixo de visão
   - `A/D`: mover para os lados
