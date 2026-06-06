@@ -3,6 +3,9 @@ Alunas: Isabelle e Isadellis
 
 Vídeo: https://youtu.be/bJki8sO5vXI
 
+[![Assita](https://img.youtube.com/vi/bJki8sO5vXI/maxresdefault.jpg)](https://youtu.be/bJki8sO5vXI)
+
+
 Trabalho prático 2 de Computação Gráfica: CEFET. Cena 3D interativa com um OVNI sobrevoando uma fazendinha.
 O objetivo é praticar os conceitos de projeção perspectiva, iluminação dinâmica, modelagem hierárquica, sombreamento, modelagem e efeitos visuais.
 
